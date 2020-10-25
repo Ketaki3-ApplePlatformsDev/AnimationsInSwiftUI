@@ -11,6 +11,7 @@
 		4B4BC2272545BA5800B90534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4BC2262545BA5800B90534 /* Assets.xcassets */; };
 		4B4BC22A2545BA5800B90534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4BC2292545BA5800B90534 /* Preview Assets.xcassets */; };
 		4B4BC2332545BFAD00B90534 /* ArcLoadIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC2322545BFAD00B90534 /* ArcLoadIndicator.swift */; };
+		4B4BC2392545DDB900B90534 /* ArcLoadIndicatorInCircularBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC2382545DDB900B90534 /* ArcLoadIndicatorInCircularBorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4B4BC2292545BA5800B90534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B4BC22B2545BA5800B90534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B4BC2322545BFAD00B90534 /* ArcLoadIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcLoadIndicator.swift; sourceTree = "<group>"; };
+		4B4BC2382545DDB900B90534 /* ArcLoadIndicatorInCircularBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcLoadIndicatorInCircularBorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				4B4BC2222545BA5600B90534 /* LoadingIndicatorsApp.swift */,
 				4B4BC2322545BFAD00B90534 /* ArcLoadIndicator.swift */,
+				4B4BC2382545DDB900B90534 /* ArcLoadIndicatorInCircularBorder.swift */,
 				4B4BC2262545BA5800B90534 /* Assets.xcassets */,
 				4B4BC22B2545BA5800B90534 /* Info.plist */,
 				4B4BC2282545BA5800B90534 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B4BC2332545BFAD00B90534 /* ArcLoadIndicator.swift in Sources */,
+				4B4BC2392545DDB900B90534 /* ArcLoadIndicatorInCircularBorder.swift in Sources */,
 				4B4BC2232545BA5600B90534 /* LoadingIndicatorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
