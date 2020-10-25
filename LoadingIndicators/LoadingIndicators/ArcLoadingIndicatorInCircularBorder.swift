@@ -14,7 +14,7 @@ import SwiftUI
  * Use easeIn/ easeOut/ easeInOut for continuously smooth animation having stop at the end.
  * You can add delay with required duration if you want to stop longer before next animation cycle starts.
  */
-struct ArcLoadIndicatorInCircularBorder: View {
+struct ArcLoadingIndicatorInCircularBorder: View {
     
     /// A variable to tell whether indicator is loading or not
     @State private var isLoading = false
@@ -45,6 +45,6 @@ struct ArcLoadIndicatorInCircularBorder: View {
 
 struct ArcLoadIndicatorOnCircularBorder_Previews: PreviewProvider {
     static var previews: some View {
-        ArcLoadIndicatorInCircularBorder()
+        ArcLoadingIndicatorInCircularBorder()
     }
 }
