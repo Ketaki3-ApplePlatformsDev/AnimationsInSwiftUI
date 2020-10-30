@@ -13,6 +13,7 @@
 		4B4BC2332545BFAD00B90534 /* SpinnerWithoutBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC2322545BFAD00B90534 /* SpinnerWithoutBorder.swift */; };
 		4B4BC2392545DDB900B90534 /* SpinnerWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC2382545DDB900B90534 /* SpinnerWithBorder.swift */; };
 		4B4BC23E2545E49400B90534 /* LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC23D2545E49400B90534 /* LoadingBar.swift */; };
+		4B91DA7C254BE0E000400969 /* LoadingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B91DA7B254BE0E000400969 /* LoadingText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4B4BC2322545BFAD00B90534 /* SpinnerWithoutBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerWithoutBorder.swift; sourceTree = "<group>"; };
 		4B4BC2382545DDB900B90534 /* SpinnerWithBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerWithBorder.swift; sourceTree = "<group>"; };
 		4B4BC23D2545E49400B90534 /* LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBar.swift; sourceTree = "<group>"; };
+		4B91DA7B254BE0E000400969 /* LoadingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				4B4BC2322545BFAD00B90534 /* SpinnerWithoutBorder.swift */,
 				4B4BC2382545DDB900B90534 /* SpinnerWithBorder.swift */,
 				4B4BC23D2545E49400B90534 /* LoadingBar.swift */,
+				4B91DA7B254BE0E000400969 /* LoadingText.swift */,
 				4B4BC2262545BA5800B90534 /* Assets.xcassets */,
 				4B4BC22B2545BA5800B90534 /* Info.plist */,
 				4B4BC2282545BA5800B90534 /* Preview Content */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B91DA7C254BE0E000400969 /* LoadingText.swift in Sources */,
 				4B4BC2332545BFAD00B90534 /* SpinnerWithoutBorder.swift in Sources */,
 				4B4BC23E2545E49400B90534 /* LoadingBar.swift in Sources */,
 				4B4BC2392545DDB900B90534 /* SpinnerWithBorder.swift in Sources */,
