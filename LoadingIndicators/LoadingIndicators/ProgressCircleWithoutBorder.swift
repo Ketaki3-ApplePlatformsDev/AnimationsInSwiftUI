@@ -24,20 +24,20 @@ struct ProgressCircleWithoutBorder: View {
     @State var progress: CGFloat = 0.0
     
     var body: some View {
-      Circle()
-        .trim(from: 0.0, to: progress)
-        .stroke(
-            AngularGradient(gradient: Gradient(colors: [color]), center: .center),
-            style: style
-        )
-        .frame(width: 50, height: 50)
-        .animation(.default)
-        .onReceive(timer) { _ in
-            self.progress += 0.1
-            if self.progress >= 1 {
-                self.progress = 0
+        Circle()
+            .trim(from: 0.0, to: progress)
+            .stroke(
+                AngularGradient(gradient: Gradient(colors: [color]), center: .center),
+                style: style
+            )
+            .frame(width: 50, height: 50)
+            .animation(.default)
+            .onReceive(timer) { _ in
+                self.progress += 0.1
+                if self.progress >= 1 {
+                    self.progress = 0
+                }
             }
-        }
     }
 }
 

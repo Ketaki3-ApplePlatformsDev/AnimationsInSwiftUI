@@ -22,14 +22,14 @@ struct LoadingText: View {
             .font(.system(size: 20)).bold()
             .transition(.slide)
             .onReceive(timer, perform: { _ in
-            if self.dotsToShow.count == 3 {
-                self.dotsToShow = ""
-            } else {
-                self.dotsToShow += "."
+                if self.dotsToShow.count == 3 {
+                    self.dotsToShow = ""
+                } else {
+                    self.dotsToShow += "."
+                }
+            }).onAppear() {
+                self.dotsToShow = "."
             }
-        }).onAppear() {
-            self.dotsToShow = "."
-        }
     }
 }
 

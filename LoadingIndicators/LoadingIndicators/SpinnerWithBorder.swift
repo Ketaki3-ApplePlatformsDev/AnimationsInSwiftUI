@@ -34,7 +34,7 @@ struct SpinnerWithBorder: View {
                 .frame(width: 100, height: 100)
                 .rotationEffect(Angle(degrees: isLoading ? 360 : 0))
                 .animation(Animation.linear(duration:  1).repeatForever(autoreverses: false))  // sets the animation effect on arc
-//                .animation(Animation.easeInOut(duration: 1).repeatForever(autoreverses: false))
+                //                .animation(Animation.easeInOut(duration: 1).repeatForever(autoreverses: false))
                 
                 .onAppear() {
                     self.isLoading.toggle()

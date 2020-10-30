@@ -40,7 +40,7 @@ struct SlidingCircles: View {
                 .offset(x: leftOffset)
                 .opacity(0.7)
                 .animation(Animation.easeInOut(duration: 1).delay(0.2))
-
+            
             // This section creates the 3rd circle
             Circle()
                 .fill(colorOfCircles)
@@ -48,7 +48,7 @@ struct SlidingCircles: View {
                 .offset(x: leftOffset)
                 .opacity(0.7)
                 .animation(Animation.easeInOut(duration: 1).delay(0.4))
-            }
+        }
         .onReceive(timer) { (_) in
             swap(&self.leftOffset, &self.rightOffset)
         }

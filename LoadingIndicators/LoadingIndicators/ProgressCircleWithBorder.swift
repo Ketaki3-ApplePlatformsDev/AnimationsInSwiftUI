@@ -30,27 +30,27 @@ struct ProgressCircleWithBorder: View {
         ZStack {
             // This section creates the circular border ring
             Circle()
-              .stroke(
-                  AngularGradient(gradient: Gradient(colors: [colorBG]), center: .center),
-                  style: style
-              )
-              .frame(width: 50, height: 50)
+                .stroke(
+                    AngularGradient(gradient: Gradient(colors: [colorBG]), center: .center),
+                    style: style
+                )
+                .frame(width: 50, height: 50)
             
-        // This section creates the progress circle
-          Circle()
-            .trim(from: 0.0, to: progress)
-            .stroke(
-                AngularGradient(gradient: Gradient(colors: [color]), center: .center),
-                style: style
-            )
-            .frame(width: 50, height: 50)
-            .animation(.default)
-            .onReceive(timer) { _ in
-                self.progress += 0.1
-                if self.progress >= 1 {
-                    self.progress = 0
+            // This section creates the progress circle
+            Circle()
+                .trim(from: 0.0, to: progress)
+                .stroke(
+                    AngularGradient(gradient: Gradient(colors: [color]), center: .center),
+                    style: style
+                )
+                .frame(width: 50, height: 50)
+                .animation(.default)
+                .onReceive(timer) { _ in
+                    self.progress += 0.1
+                    if self.progress >= 1 {
+                        self.progress = 0
+                    }
                 }
-            }
         }
     }
 }
