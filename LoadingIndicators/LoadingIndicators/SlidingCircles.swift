@@ -8,7 +8,7 @@
 import SwiftUI
 
 /**
- * A view that creates a indicator in for of sliding circles
+ * A view that creates a indicator in form of sliding circles
  */
 struct SlidingCircles: View {
     /// A variable that creates timer publishing events on every 1 second
@@ -20,7 +20,7 @@ struct SlidingCircles: View {
     /// A variable that defined the right offset
     @State var rightOffset: CGFloat = 100
     
-    /// A variable to tell the color of the crcles
+    /// A variable to tell the color of the circles
     let colorOfCircles = Color.green
     
     var body: some View {
