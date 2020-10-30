@@ -28,6 +28,7 @@ struct ProgressCircleWithBorder: View {
     
     var body: some View {
         ZStack {
+            // This section creates the circular border ring
             Circle()
               .stroke(
                   AngularGradient(gradient: Gradient(colors: [colorBG]), center: .center),
@@ -35,6 +36,7 @@ struct ProgressCircleWithBorder: View {
               )
               .frame(width: 50, height: 50)
             
+        // This section creates the progress circle
           Circle()
             .trim(from: 0.0, to: progress)
             .stroke(
