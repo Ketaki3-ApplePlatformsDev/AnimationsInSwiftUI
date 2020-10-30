@@ -11,6 +11,7 @@
 		4B03D246254BEC64001D74B2 /* HalfCircleSpinnerWithoutBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B03D245254BEC64001D74B2 /* HalfCircleSpinnerWithoutBorder.swift */; };
 		4B03D24B254BF2A3001D74B2 /* HalfCircleSpinnerWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B03D24A254BF2A3001D74B2 /* HalfCircleSpinnerWithBorder.swift */; };
 		4B03D24F254BF410001D74B2 /* ProgressCircleWithoutBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B03D24E254BF410001D74B2 /* ProgressCircleWithoutBorder.swift */; };
+		4B03D256254BFD2C001D74B2 /* ProgressCircleWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B03D255254BFD2C001D74B2 /* ProgressCircleWithBorder.swift */; };
 		4B4BC2232545BA5600B90534 /* LoadingIndicatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC2222545BA5600B90534 /* LoadingIndicatorsApp.swift */; };
 		4B4BC2272545BA5800B90534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4BC2262545BA5800B90534 /* Assets.xcassets */; };
 		4B4BC22A2545BA5800B90534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4BC2292545BA5800B90534 /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		4B03D245254BEC64001D74B2 /* HalfCircleSpinnerWithoutBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfCircleSpinnerWithoutBorder.swift; sourceTree = "<group>"; };
 		4B03D24A254BF2A3001D74B2 /* HalfCircleSpinnerWithBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfCircleSpinnerWithBorder.swift; sourceTree = "<group>"; };
 		4B03D24E254BF410001D74B2 /* ProgressCircleWithoutBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleWithoutBorder.swift; sourceTree = "<group>"; };
+		4B03D255254BFD2C001D74B2 /* ProgressCircleWithBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleWithBorder.swift; sourceTree = "<group>"; };
 		4B4BC21F2545BA5600B90534 /* LoadingIndicators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingIndicators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4BC2222545BA5600B90534 /* LoadingIndicatorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorsApp.swift; sourceTree = "<group>"; };
 		4B4BC2262545BA5800B90534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				4B03D245254BEC64001D74B2 /* HalfCircleSpinnerWithoutBorder.swift */,
 				4B03D24A254BF2A3001D74B2 /* HalfCircleSpinnerWithBorder.swift */,
 				4B03D24E254BF410001D74B2 /* ProgressCircleWithoutBorder.swift */,
+				4B03D255254BFD2C001D74B2 /* ProgressCircleWithBorder.swift */,
 				4B4BC2262545BA5800B90534 /* Assets.xcassets */,
 				4B4BC22B2545BA5800B90534 /* Info.plist */,
 				4B4BC2282545BA5800B90534 /* Preview Content */,
@@ -163,6 +166,7 @@
 				4B91DA7C254BE0E000400969 /* LoadingText.swift in Sources */,
 				4B4BC2332545BFAD00B90534 /* SpinnerWithoutBorder.swift in Sources */,
 				4B4BC23E2545E49400B90534 /* LoadingBar.swift in Sources */,
+				4B03D256254BFD2C001D74B2 /* ProgressCircleWithBorder.swift in Sources */,
 				4B03D24F254BF410001D74B2 /* ProgressCircleWithoutBorder.swift in Sources */,
 				4B4BC2392545DDB900B90534 /* SpinnerWithBorder.swift in Sources */,
 				4B03D241254BE515001D74B2 /* ProgressBar.swift in Sources */,
