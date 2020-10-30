@@ -8,11 +8,7 @@
 import SwiftUI
 
 /**
- * A view that creates a loading indicator in arc form in a cicular ring.
- * This arc indicating loading rotates in circular motion.
- * Use liner animation for continuously smooth animation on arc.
- * Use easeIn/ easeOut/ easeInOut animations.
- * You can add delay with required duration if you want to stop longer before next animation cycle starts.
+ * A view that creates a loading bar
  */
 struct LoadingBar: View {
     

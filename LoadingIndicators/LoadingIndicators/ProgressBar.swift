@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+/**
+ * A view that creates a progress bar
+ */
+
 struct ProgressBar: View {
     /// A variable that creates timer publishing events on every 1 second
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -19,6 +23,7 @@ struct ProgressBar: View {
     
     /// A variable that tells the total width of the bar
     @State var capsuleWidth: CGFloat = 180
+    
     var body: some View {
         ZStack {
             Capsule()

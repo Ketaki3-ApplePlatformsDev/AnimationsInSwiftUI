@@ -8,7 +8,7 @@
 import SwiftUI
 
 /**
- * A view that creates a loading indicator in 2 half circular arcs form.
+ * A view that creates a loading indicator in 2 half circular arcs form  in a circular ring..
  * These arcs indicating loading rotate in circular motion.
  * Use liner animation for continuously smooth animation on arc.
  * Use default animation for continuously faster animation having a little stop at the end.
