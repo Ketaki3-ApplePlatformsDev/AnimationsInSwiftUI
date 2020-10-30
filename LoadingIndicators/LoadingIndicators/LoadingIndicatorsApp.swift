@@ -11,7 +11,7 @@ import SwiftUI
 struct LoadingIndicatorsApp: App {
     var body: some Scene {
         WindowGroup {
-            ArcLoadingIndicator()
+            SpinnerWithoutBorder()
         }
     }
 }

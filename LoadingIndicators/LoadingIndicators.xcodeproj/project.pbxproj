@@ -10,9 +10,9 @@
 		4B4BC2232545BA5600B90534 /* LoadingIndicatorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC2222545BA5600B90534 /* LoadingIndicatorsApp.swift */; };
 		4B4BC2272545BA5800B90534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4BC2262545BA5800B90534 /* Assets.xcassets */; };
 		4B4BC22A2545BA5800B90534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4BC2292545BA5800B90534 /* Preview Assets.xcassets */; };
-		4B4BC2332545BFAD00B90534 /* ArcLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC2322545BFAD00B90534 /* ArcLoadingIndicator.swift */; };
-		4B4BC2392545DDB900B90534 /* ArcLoadingIndicatorInCircularBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC2382545DDB900B90534 /* ArcLoadingIndicatorInCircularBorder.swift */; };
-		4B4BC23E2545E49400B90534 /* LinearLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC23D2545E49400B90534 /* LinearLoadingIndicator.swift */; };
+		4B4BC2332545BFAD00B90534 /* SpinnerWithoutBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC2322545BFAD00B90534 /* SpinnerWithoutBorder.swift */; };
+		4B4BC2392545DDB900B90534 /* SpinnerWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC2382545DDB900B90534 /* SpinnerWithBorder.swift */; };
+		4B4BC23E2545E49400B90534 /* LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BC23D2545E49400B90534 /* LoadingBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +21,9 @@
 		4B4BC2262545BA5800B90534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B4BC2292545BA5800B90534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B4BC22B2545BA5800B90534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B4BC2322545BFAD00B90534 /* ArcLoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcLoadingIndicator.swift; sourceTree = "<group>"; };
-		4B4BC2382545DDB900B90534 /* ArcLoadingIndicatorInCircularBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcLoadingIndicatorInCircularBorder.swift; sourceTree = "<group>"; };
-		4B4BC23D2545E49400B90534 /* LinearLoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearLoadingIndicator.swift; sourceTree = "<group>"; };
+		4B4BC2322545BFAD00B90534 /* SpinnerWithoutBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerWithoutBorder.swift; sourceTree = "<group>"; };
+		4B4BC2382545DDB900B90534 /* SpinnerWithBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerWithBorder.swift; sourceTree = "<group>"; };
+		4B4BC23D2545E49400B90534 /* LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				4B4BC2222545BA5600B90534 /* LoadingIndicatorsApp.swift */,
-				4B4BC2322545BFAD00B90534 /* ArcLoadingIndicator.swift */,
-				4B4BC2382545DDB900B90534 /* ArcLoadingIndicatorInCircularBorder.swift */,
-				4B4BC23D2545E49400B90534 /* LinearLoadingIndicator.swift */,
+				4B4BC2322545BFAD00B90534 /* SpinnerWithoutBorder.swift */,
+				4B4BC2382545DDB900B90534 /* SpinnerWithBorder.swift */,
+				4B4BC23D2545E49400B90534 /* LoadingBar.swift */,
 				4B4BC2262545BA5800B90534 /* Assets.xcassets */,
 				4B4BC22B2545BA5800B90534 /* Info.plist */,
 				4B4BC2282545BA5800B90534 /* Preview Content */,
@@ -144,9 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B4BC2332545BFAD00B90534 /* ArcLoadingIndicator.swift in Sources */,
-				4B4BC23E2545E49400B90534 /* LinearLoadingIndicator.swift in Sources */,
-				4B4BC2392545DDB900B90534 /* ArcLoadingIndicatorInCircularBorder.swift in Sources */,
+				4B4BC2332545BFAD00B90534 /* SpinnerWithoutBorder.swift in Sources */,
+				4B4BC23E2545E49400B90534 /* LoadingBar.swift in Sources */,
+				4B4BC2392545DDB900B90534 /* SpinnerWithBorder.swift in Sources */,
 				4B4BC2232545BA5600B90534 /* LoadingIndicatorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

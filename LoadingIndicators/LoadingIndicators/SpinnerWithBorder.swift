@@ -14,7 +14,7 @@ import SwiftUI
  * Use easeIn/ easeOut/ easeInOut for continuously smooth animation having stop at the end.
  * You can add delay with required duration if you want to stop longer before next animation cycle starts.
  */
-struct SpinnerInsideCircularBorder: View {
+struct SpinnerWithBorder: View {
     
     /// A variable to tell whether indicator is loading or not
     @State private var isLoading = false
@@ -37,7 +37,7 @@ struct SpinnerInsideCircularBorder: View {
 //                .animation(Animation.easeInOut(duration: 1).repeatForever(autoreverses: false))
                 
                 .onAppear() {
-                    self.isLoading = true
+                    self.isLoading.toggle()
                 }
         }
     }
@@ -45,6 +45,6 @@ struct SpinnerInsideCircularBorder: View {
 
 struct ArcLoadIndicatorOnCircularBorder_Previews: PreviewProvider {
     static var previews: some View {
-        SpinnerInsideCircularBorder()
+        SpinnerWithBorder()
     }
 }
